@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    background-color: white;
+    width: 1320px;
+    height: auto;
+    margin: 0 auto;
+    font-family: arial,sans-serif;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:38px;
+    font-weight: bold;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li{
+    margin: 0px 16px;
+}
+
+.menu ul li a{
+    text-decoration: none;  
+    color: black;
+}
+
+.icon_header{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.005em;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon_header button{
+    width: 84px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid #F54748;
+} 
+.sign_in{
+    background-color: white;
+    margin-left: 20px;
+    color:#F54748 ;
+}
+
+.sign_out{
+    background-color: #F54748;
+    margin-left: 20px;
+    color: white;
+}
+
+.banner{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rectangle_41{
+    width: 160px;
+    height: auto;
+    background: #FFEEEE;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.rectangle_41 h3{
+    font-weight: 700;
+    font-size: 18px;  
+    color: #F54748;
+    text-align:center;
+    padding:12px;
+}
+
+h1{
+
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #111928;
+
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.dish{
+    margin-top:48px;
+    height: 400px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {box-sizing: border-box}
+
+/* Style the tab */
+.tab {
+    float: left;
+    width: 20%;
+    height: 300px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    display: block;
+    background-color: inherit;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tab button:hover{
+    color: red;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 80%;
+    border-left: none;
+    height: auto;
+    float: hidden;
+}
+
+
+
+
+
+.one{
+    width: 289.26px;
+}
+
+.dishes_img{
+    width: 100%;
+    height: auto;
+}
+
+.one img{
+    border-radius:20px;
+}
+
+.one h4{
+    height: 32px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    margin:16px 0px;
+}
+
+.one_text{
+    margin:42px 0px 0px;
+}
+
+.one_text_p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F54748;
+}
+
+.one_box{
+    background-color: #000000;
+    border-radius:6px;
+    height: 31.17px;
+}
+
+.one_box {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 0.005em;
+    color: #FFFFFF ;
+    margin-top:12px;
+}
+
+
+.three .one{
+    display: inline-block;
+}
+
+.three{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom:100px;
+    padding-top:32px;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:38px;
+    font-weight: bold;
+}
+
+.menu_foot ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu_foot ul li{
+    margin:32px;
+}
+
+.menu_foot ul li a{
+    text-decoration: none;  
+    color: black;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+
+    text-align: center;
+
+    color: #5D5D5D;
+}
+
+
+
+
+
+
+
