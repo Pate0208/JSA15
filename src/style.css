@@ -20,6 +20,11 @@
     font-weight: bold;
 }
 
+
+
+
+
+
 .menu ul{
     display: flex;
     list-style: none;
@@ -155,7 +160,13 @@ h1 span{
     text-align: center;
 }
 
-.six{
+
+
+
+
+
+
+/* .six{
     margin-top:38px;
 }
 
@@ -192,7 +203,44 @@ h1 span{
     display: flex;
     justify-content: space-between;
     margin-bottom: 56px;
+} */
+
+.six_pro {
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
+
+.one{
+    margin: 28px 0px;
+}
+
+.one img {
+    border-radius: 20px;
+}
+
+.one h4 {
+    width: 400px;
+    height: 32px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #F54748;
+    margin: 16px 0px;
+}
+
+.one_text div {
+    display: flex;
+}
+
+.one_text div p {
+    margin: 0px 27.75px 0px 13px;
+    display: flex;
+    align-items: center;
+}
+
+
+
 
 
 

@@ -118,28 +118,33 @@ h1{
 
 
 .discover{
-    width: 180px;
-    height: 64px;
+    margin-top: 56px;
+    width: 50%;
+    height: 40px;
     background: #ffffff;
-    border-radius: 10px;
     display:grid;
-    grid-template-columns: 7fr 4fr;
+    grid-template-columns: 7fr 1fr 5fr;
 }
 .delivery{
-    border: 2px #F54748 solid;
-    border-radius: 10px 0px 0px 10px;
+    border: 2px #dadada solid;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    height: 42px;
+    border-radius: 5px;
+
 }
 .delivery p{
-    padding:20px 0px 20px 15px;
-    color: #5D5D5D;
+    /* padding:10px 0px 10px 15px; */
+    color: #5D5D5D
 }
 .discover button{
-    border-radius: 0px 10px 10px 0px;
-    border: #000000 solid;
     background-color:#000000;
+    border-radius: 5px;
     color: white;
     font-size: 16px;
-    padding-right:20px;
+    height: auto;
+    width: 100%;
 }
 
 

@@ -13,10 +13,10 @@
             <div class="menu">
                 <ul>
                     <li id="home">
-                        <a href="#">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#">Products</a>
+                        <a href="products.html">Products</a>
                     </li>
                     <li>
                         <a href="#">About Us</a>
@@ -42,206 +42,25 @@
         
         <div class="dish">
             <div class="tab">
-                <button class="tablinks" onclick="openCity(event, 'All')" id="defaultOpen">All</button>
-                <button class="tablinks" onclick="openCity(event, 'Breakfast')">Breakfast</button>
-                <button class="tablinks" onclick="openCity(event, 'Vegan')">Vegan</button>
-                <button class="tablinks" onclick="openCity(event, 'Meat')">Meat</button>
-                <button class="tablinks" onclick="openCity(event, 'Dessert')">Dessert</button>
-                <button class="tablinks" onclick="openCity(event, 'Lunch')">Lunch</button>
-                <button class="tablinks" onclick="openCity(event, 'Chocolate')">Chocolate</button>
+                <button class="tablinks" onclick="filterProduct()" id="defaultOpen">All</button>
+                <a href="#" onclick="filterProduct()" value="Ga">
+                    <button class="tablinks">Breakfast</button>
+                </a>
+                
+
+                <button class="tablinks" onclick="filterProduct()" value="Vegan">Vegan</button>
+                <button class="tablinks" onclick="filterProduct()" value="Meat">Meat</button>
+                <button class="tablinks" onclick="filterProduct()" value="Dessert">Dessert</button>
+                <button class="tablinks" onclick="filterProduct()" value="Lunch">Lunch</button>
+                <button class="tablinks" onclick="filterProduct()" value="Chocolate">Chocolate</button>
                 
             </div>
 
-            <div id="All" class="tabcontent">
-                <div class="three">
-                    <div class="one">
-                        <img src="img/image 29.png" alt="" class="dishes_img">
-                        <h4> Fresh and Healthy Mixed Mayonnaise  </h4>
+            <div class="six_pro">
 
-                        <div class="one_text">
-                            <div>
-                                <p class="one_text_p">
-                                    $30
-                                </p>
-                            </div>
-                            <div class="one_box">
 
-                                    Add To Cart 
-                            </div>
-                        </div>
-    
-                    </div>
-                    <div class="one">
-                        <img src="img/image 30.png" alt="" class="dishes_img">
-                        <h4> The Creamiest Creamy Chicken </h4>
-
-                        <div class="one_text">
-                            <div>
-                                <p class="one_text_p">
-                                    $30
-                                </p>
-                            </div>
-                            <div class="one_box">
-
-                                    Add To Cart 
-                            </div>
-                        </div>
-    
-                    </div>
-                    <div class="one">
-                        <img src="img/image 31.png" alt="" class="dishes_img">
-                        <h4>  Fruity Pancake with Orange & Blueberry </h4>
-
-                        <div class="one_text">
-                            <div>
-                                <p class="one_text_p">
-                                    $30
-                                </p>
-                            </div>
-                            <div class="one_box">
-
-                                    Add To Cart 
-                            </div>
-                        </div>
-    
-
-                    </div>
-                </div>
-                <div class="three">
-                    <div class="one">
-                        <img src="img/image 29.png" alt="" class="dishes_img">
-                        <h4> Fresh and Healthy Mixed Mayonnaise  </h4>
-
-                        <div class="one_text">
-                            <div>
-                                <p class="one_text_p">
-                                    $30
-                                </p>
-                            </div>
-                            <div class="one_box">
-
-                                    Add To Cart 
-                            </div>
-                        </div>
-    
-                    </div>
-                    <div class="one">
-                        <img src="img/image 30.png" alt="" class="dishes_img">
-                        <h4> The Creamiest Creamy Chicken </h4>
-
-                        <div class="one_text">
-                            <div>
-                                <p class="one_text_p">
-                                    $30
-                                </p>
-                            </div>
-                            <div class="one_box">
-
-                                    Add To Cart 
-                            </div>
-                        </div>
-    
-                    </div>
-                    <div class="one">
-                        <img src="img/image 31.png" alt="" class="dishes_img">
-                        <h4>  Fruity Pancake with Orange & Blueberry </h4>
-
-                        <div class="one_text">
-                            <div>
-                                <p class="one_text_p">
-                                    $30
-                                </p>
-                            </div>
-                            <div class="one_box">
-
-                                    Add To Cart 
-                            </div>
-                        </div>
-    
-
-                    </div>
-                </div>
-            </div> 
-
-            <div id="Breakfast" class="tabcontent">
-                <div class="three">
-
-                    <div class="one">
-                        <img src="img/image 29.png" alt="" class="dishes_img">
-                        <h4> Fresh and Healthy Mixed Mayonnaise  </h4>
-
-                        <div class="one_text">
-                            <div>
-                                <p class="one_text_p">
-                                    $30
-                                </p>
-                            </div>
-                            <div class="one_box">
-
-                                    Add To Cart 
-                            </div>
-                        </div>
-    
-                    </div>
-                    <div class="one">
-                        <img src="img/image 30.png" alt="" class="dishes_img">
-                        <h4> The Creamiest Creamy Chicken </h4>
-
-                        <div class="one_text">
-                            <div>
-                                <p class="one_text_p">
-                                    $30
-                                </p>
-                            </div>
-                            <div class="one_box">
-
-                                    Add To Cart 
-                            </div>
-                        </div>
-    
-                    </div>
-                    <div class="one">
-                        <img src="img/image 31.png" alt="" class="dishes_img">
-                        <h4>  Fruity Pancake with Orange & Blueberry </h4>
-
-                        <div class="one_text">
-                            <div>
-                                <p class="one_text_p">
-                                    $30
-                                </p>
-                            </div>
-                            <div class="one_box">
-
-                                    Add To Cart 
-                            </div>
-                        </div>
-    
-
-                    </div>
-                </div>
             </div>
-
-            <div id="Breakfast" class="tabcontent">
-                <p>London is the capital city of England.</p>
-            </div>
-            
-            <div id="Vegan" class="tabcontent">
-                <p>Paris is the capital of France.</p> 
-            </div>
-
-            <div id="Meat" class="tabcontent">
-                <p>Tokyo is the capital of Japan.</p>
-            </div> 
-
-            <div id="Dessert" class="tabcontent">
-                <p>London is the capital city of England.</p>
-            </div>
-            
-            <div id="Lunch" class="tabcontent">
-                <p>Paris is the capital of France.</p> 
-            </div>
-
-            
+          
             
         </div>
 

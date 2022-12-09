@@ -47,7 +47,7 @@
     align-items: center;
 }
 
-.icon_header button{
+.icon_header a{
     width: 84px;
     height: 42px;
     border-radius: 5px;
@@ -107,7 +107,7 @@ h1{
 
 .dish{
     margin-top:48px;
-    height: 400px
+    height: 800px
 }
 
 
@@ -169,6 +169,7 @@ h1{
 
 .one{
     width: 289.26px;
+    margin-bottom: 32px;
 }
 
 .dishes_img{
@@ -219,14 +220,10 @@ h1{
 }
 
 
-.three .one{
-    display: inline-block;
-}
-
-.three{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 56px;
+.six_pro {
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 
